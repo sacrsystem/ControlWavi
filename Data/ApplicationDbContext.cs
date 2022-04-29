@@ -17,6 +17,8 @@ namespace ControlWavi.Data;
         public DbSet<ControlWavi.Models.Contacto> DataContactos { get; set; }
 
         public DbSet<ControlWavi.Models.Producto> DataProductos { get; set; } 
+    
+        public DbSet<ControlWavi.Models.Proforma> DataProforma { get; set; }
     }
 
     
