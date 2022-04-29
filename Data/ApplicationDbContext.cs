@@ -2,11 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using ControlWavi.Models;
 
-namespace ControlWavi.Data
-{
-    public class ApplicationDbContext
+namespace ControlWavi.Data;
+    public class ApplicationDbContext: IdentityDbContext
     {
-        
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<ControlWavi.Models.Contacto> DataContactos { get; set; }
+
+        public DbSet<ControlWavi.Models.Producto> DataProductos { get; set; } 
     }
-}
+
+    

@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "e:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj": {}
+    "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj": {}
   },
   "projects": {
-    "e:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj": {
+    "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj",
+        "projectUniqueName": "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj",
         "projectName": "ControlWavi",
-        "projectPath": "e:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj",
+        "projectPath": "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "e:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\obj\\",
+        "outputPath": "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,42 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
