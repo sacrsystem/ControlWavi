@@ -52,7 +52,7 @@ namespace ControlWavi.Controllers
             if(userID == null){
                 ViewData["Message"] = "Por favor regístrese o inicie sesión antes de agregar un producto";
                 List<Producto> productos = new List<Producto>();
-                return  View("Index",productos);
+                return  View("Index_catalogo",productos);
             }else{
                 var producto = await _context.DataProductos.FindAsync(id);
                 Proforma proforma = new Proforma();
