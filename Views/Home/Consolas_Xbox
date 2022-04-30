@@ -1,0 +1,43 @@
+@{
+    ViewData["Title"] = "Consolas XBOX";
+}
+<h1>@ViewData["Title"]</h1>
+
+<section class="Consolas Xbox">
+  <main class="mainDestacados">
+    
+    <section class="containerProdutos">
+      <div class="produto">
+          <img src="\Images\Xbox_clasico.png" alt="Xbox_Clasico" class="produto__img" width="200px">
+        <div class="productDescription">
+          <h3 class="produto__title">Xbox Clásico</h3>
+          <span class="produto__price">S/ 400.00</span>
+          <br><button> Añadir a carrito</button>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="produto">
+          <img src="\Images\Xbox_360.png" alt="Xbox_360" class="produto__img" width="200px">
+        <div class="productDescription">
+          <h3 class="produto__title">Xbox 360</h3>
+          <span class="produto__price">S/ 550.00</span>
+          <br><button> Añadir a carrito</button>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="produto">
+          <img src="\Images\Xbox_one.png" alt="Xbox_One" class="produto__img" width="200px">
+        <div class="productDescription">
+          <h3 class="produto__title">Xbox One</h3>
+          <span class="produto__price">S/ 850.00</span>
+          <br><button> Añadir a carrito</button>
+        </div>
+        <br>
+        <br>
+      </div>
+    
+    </section>
+  </main>
+</section>
