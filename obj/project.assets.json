@@ -10203,24 +10203,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexander\\.nuget\\packages\\": {}
+    "C:\\Users\\Inteligo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Alexander\\Documents\\PROGRMACION1 TRABAJO GRUPAL VERSION 2\\ControlWavi\\ControlWavi.csproj",
+      "projectUniqueName": "c:\\Users\\Inteligo\\Code\\netcore\\usmp\\20221\\ControlWavi\\ControlWavi.csproj",
       "projectName": "ControlWavi",
-      "projectPath": "c:\\Users\\Alexander\\Documents\\PROGRMACION1 TRABAJO GRUPAL VERSION 2\\ControlWavi\\ControlWavi.csproj",
-      "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Alexander\\Documents\\PROGRMACION1 TRABAJO GRUPAL VERSION 2\\ControlWavi\\obj\\",
+      "projectPath": "c:\\Users\\Inteligo\\Code\\netcore\\usmp\\20221\\ControlWavi\\ControlWavi.csproj",
+      "packagesPath": "C:\\Users\\Inteligo\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Inteligo\\Code\\netcore\\usmp\\20221\\ControlWavi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Inteligo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10290,7 +10292,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
