@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj": {}
+    "C:\\ControlWavi\\ControlWavi\\ControlWavi.csproj": {}
   },
   "projects": {
-    "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj": {
+    "C:\\ControlWavi\\ControlWavi\\ControlWavi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj",
+        "projectUniqueName": "C:\\ControlWavi\\ControlWavi\\ControlWavi.csproj",
         "projectName": "ControlWavi",
-        "projectPath": "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\ControlWavi.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\tareas de Arleth\\ProyectoFinal\\ControlWavi\\obj\\",
+        "projectPath": "C:\\ControlWavi\\ControlWavi\\ControlWavi.csproj",
+        "packagesPath": "C:\\Users\\Violeta\\.nuget\\packages\\",
+        "outputPath": "C:\\ControlWavi\\ControlWavi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Violeta\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
