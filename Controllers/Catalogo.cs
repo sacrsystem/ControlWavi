@@ -11,8 +11,7 @@ namespace ControlWavi.Controllers
     [Route("[controller]")]
     public class Catalogo : Controller
     {
-        private readonly ILogger<Catalogo> _logger;
-
+        
         public Catalogo(ILogger<Catalogo> logger)
         {
             _logger = logger;
