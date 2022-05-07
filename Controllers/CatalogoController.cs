@@ -9,11 +9,11 @@ using ControlWavi.Models;
 
 namespace ControlWavi.Controllers
 {
-    public class Catalogo : Controller
+    public class CatalogoController : Controller
     {
-        private readonly ILogger<Catalogo> _logger;
+        private readonly ILogger<CatalogoController> _logger;
 
-        public Catalogo(ILogger<Catalogo> logger)
+        public CatalogoController(ILogger<CatalogoController> logger)
         {
             _logger = logger;
         }
