@@ -5,13 +5,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ControlWavi.Models;
 
 namespace ControlWavi.Controllers
 {
-    [Route("[controller]")]
     public class Catalogo : Controller
     {
-        
+        private readonly ILogger<Catalogo> _logger;
+
         public Catalogo(ILogger<Catalogo> logger)
         {
             _logger = logger;
@@ -22,10 +23,10 @@ namespace ControlWavi.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+       [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View("Error!");
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
