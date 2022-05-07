@@ -28,6 +28,12 @@ namespace ControlWavi.Controllers
             _userManager = userManager;
         }
 
+        public IActionResult Index()
+        {
+            
+            return View();
+        }
+
          public async Task<IActionResult> Index(string? searchString)
         {
             var productos = from o in _context.DataProductos select o;
