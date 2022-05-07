@@ -13,10 +13,7 @@ namespace ControlWavi.Controllers
     {
         private readonly ILogger<CatalogoController> _logger;
 
-        public CatalogoController(ILogger<CatalogoController> logger)
-        {
-            _logger = logger;
-        }
+        public CatalogoController(ILogger<CatalogoController> logger) => _logger = logger;
 
         public IActionResult Index_catalogo()
         {
