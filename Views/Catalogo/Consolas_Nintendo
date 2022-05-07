@@ -3,7 +3,7 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<section class="Consolas Nintendo">
+<section class="Consolas Nintendo"></a>
   <main class="mainDestacados">
     
     <section class="containerProdutos">
