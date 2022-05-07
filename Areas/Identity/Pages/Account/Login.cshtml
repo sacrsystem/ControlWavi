@@ -9,18 +9,18 @@
  
 
         <section>
-           
+           <div class="col-md-5">
             <form id="account" method="post" style="background-color: white">
                 
                 <h2 style="color:blue;">Ingrese su cuenta para iniciar.</h2>
                 <hr />
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-floating mx-sm-3">
-                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
-                    <label asp-for="Input.Email" class="form-label" class="col-xs-3">Correo</label>
+                <div class="col-md-8">
+                    <input asp-for="Input.Email" class="form-control" class="col-md-2" autocomplete="username" aria-required="true" />
+                    <label asp-for="Input.Email" class="form-label">Correo</label>
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
-                <div class="form-floating mx-sm-3">
+                <div class="col-md-8">
                     <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
                     <label asp-for="Input.Password" class="form-label">Contraseña</label>
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
@@ -33,7 +33,7 @@
                         </label>
                     </div>
                 </div>
-                <div>
+                <div class="col-md-5" >
                     <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Iniciar</button>
                 </div>
                 <div>
@@ -48,6 +48,7 @@
                     </p>
                 </div>
             </form>
+            </div>
         </section>
     </div>
     <!--div class="col-md-6 col-md-offset-2">
