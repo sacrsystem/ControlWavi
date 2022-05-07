@@ -18,7 +18,7 @@ namespace ControlWavi.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index_catalogo()
         {
             return View();
         }
