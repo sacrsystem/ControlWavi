@@ -1,26 +1,29 @@
 @page
 @model LoginModel
 
+
 @{
-    ViewData["Title"] = "Inicio de Sesion";
+    ViewData["Title"] = "";
 }
 
 <h1>@ViewData["Title"]</h1>
  
 
         <section>
-           <div class="col-md-5">
-            <form id="account" method="post" style="background-color: white">
+           <div class="form-floating mx-sm-3" align="center">
+            <form id="account" method="post" >
                 
-                <h2 style="color:blue;">Ingrese su cuenta para iniciar.</h2>
+                <h2 style="color:blue;">Ingrese sus datos</h2>
                 <hr />
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="col-md-8">
+                <div class="col-md-5">
                     <input asp-for="Input.Email" class="form-control" class="col-md-2" autocomplete="username" aria-required="true" />
-                    <label asp-for="Input.Email" class="form-label">Correo</label>
+                    <label asp-for="Input.Email" class="form-label" for="validation01" type="text" class="form-control is-valid" id="validation01" 
+                    required>Correo</label>
+                   
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-5">
                     <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
                     <label asp-for="Input.Password" class="form-label">Contraseña</label>
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
